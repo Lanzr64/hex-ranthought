@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "hex_ranthought:item/rainbow_amogus_fidget"
+    }
+}

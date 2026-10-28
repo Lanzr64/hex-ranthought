@@ -1,0 +1,12 @@
+{
+  "name": "hexcasting.spell.hex_ranthought:spatial_blade",
+  "icon": "minecraft:amethyst_shard",
+  "category": "hexcasting:patterns/great_spells",
+  "sortnum": 18,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "hex_ranthought.page.spatial_blade.intro" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:spatial_blade", "anchor": "hex_ranthought:spatial_blade", "input": "start position, direction", "output": "", "text": "hex_ranthought.page.spatial_blade.pattern" }
+  ]
+}

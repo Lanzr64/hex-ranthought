@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GFG",
+    "NGN",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "tag": "minecraft:music_discs"
+    },
+    "G": {
+      "item": "minecraft:slime_ball"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "F": {
+      "item": "hexcasting:focus"
+    }
+  },
+  "result": {
+    "item": "hex_ranthought:gloopifact"
+  }
+}

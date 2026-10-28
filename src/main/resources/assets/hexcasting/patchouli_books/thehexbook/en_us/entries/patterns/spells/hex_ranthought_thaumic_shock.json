@@ -1,0 +1,12 @@
+{
+  "name": "hexcasting.spell.hex_ranthought:thaumic_shock",
+  "icon": "minecraft:lightning_rod",
+  "category": "hexcasting:patterns/spells",
+  "sortnum": 17,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "hex_ranthought.page.thaumic_shock.intro" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:thaumic_shock", "anchor": "hex_ranthought:thaumic_shock", "input": "list of entities", "output": "", "text": "hex_ranthought.page.thaumic_shock.pattern" }
+  ]
+}

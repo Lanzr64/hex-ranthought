@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:item/generated",
+    "overrides": [
+        {
+          "model": "hex_ranthought:item/library_card",
+          "predicate": {
+            "hex_ranthought:dimension": 0.0
+          }
+        },
+        {
+          "model": "hex_ranthought:item/library_card/overworld",
+          "predicate": {
+            "hex_ranthought:dimension": 0.01
+          }
+        },
+        {
+          "model": "hex_ranthought:item/library_card/nether",
+          "predicate": {
+            "hex_ranthought:dimension": 0.02
+          }
+        },
+        {
+          "model": "hex_ranthought:item/library_card/end",
+          "predicate": {
+            "hex_ranthought:dimension": 0.03
+          }
+        },
+        {
+          "model": "hex_ranthought:item/library_card/generic",
+          "predicate": {
+            "hex_ranthought:dimension": 1
+          }
+        }
+      ],
+    "textures": {
+      "layer0": "hex_ranthought:item/library_card/card"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "hex_ranthought.entry.orchard",
+  "icon": "hex_ranthought:copper_pen_fidget",
+  "category": "hexcasting:patterns",
+  "sortnum": 11,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "hex_ranthought.page.orchard.intro" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:read_orchard", "anchor": "hex_ranthought:read_orchard", "input": "", "output": "num", "text": "hex_ranthought.page.orchard.read" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:read_orchard_list", "anchor": "hex_ranthought:read_orchard_list", "input": "", "output": "list", "text": "hex_ranthought.page.orchard.read_list" }
+  ]
+}

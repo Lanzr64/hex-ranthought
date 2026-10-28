@@ -1,0 +1,12 @@
+{
+  "name": "hexcasting.spell.hex_ranthought:swap_entities",
+  "icon": "minecraft:ender_pearl",
+  "category": "hexcasting:patterns/spells",
+  "sortnum": 14,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "hex_ranthought.page.swap_entities.intro" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:swap_entities", "anchor": "hex_ranthought:swap_entities", "input": "entity, entity", "output": "", "text": "hex_ranthought.page.swap_entities.pattern" }
+  ]
+}

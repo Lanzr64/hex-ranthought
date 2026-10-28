@@ -1,0 +1,12 @@
+{
+  "name": "hexcasting.spell.hex_ranthought:phantom_chicken",
+  "icon": "minecraft:phantom_membrane",
+  "category": "hexcasting:patterns/spells",
+  "sortnum": 16,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "hex_ranthought.page.phantom_chicken.intro" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:phantom_chicken", "anchor": "hex_ranthought:phantom_chicken", "input": "entity", "output": "", "text": "hex_ranthought.page.phantom_chicken.pattern" }
+  ]
+}

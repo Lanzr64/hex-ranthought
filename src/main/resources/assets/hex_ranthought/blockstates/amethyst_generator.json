@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "hex_ranthought:block/amethyst_generator" },
+    "facing=east": { "model": "hex_ranthought:block/amethyst_generator", "y": 90 },
+    "facing=south": { "model": "hex_ranthought:block/amethyst_generator", "y": 180 },
+    "facing=west": { "model": "hex_ranthought:block/amethyst_generator", "y": 270 }
+  }
+}

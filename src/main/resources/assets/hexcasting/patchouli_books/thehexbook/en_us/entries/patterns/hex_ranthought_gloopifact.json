@@ -1,0 +1,18 @@
+{
+  "name": "hex_ranthought.entry.gloopifact_patterns",
+  "icon": "hex_ranthought:gloopifact",
+  "category": "hexcasting:patterns",
+  "sortnum": 12,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "hex_ranthought.page.gloopifact_patterns.intro" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:craft/gloopifact", "anchor": "hex_ranthought:craft/gloopifact", "input": "entity, [pattern]", "output": "", "text": "hex_ranthought.page.gloopifact_patterns.make" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:gloopimind_upload", "anchor": "hex_ranthought:gloopimind_upload", "input": "", "output": "", "text": "hex_ranthought.page.gloopifact_patterns.upload" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:gloopimind_download", "anchor": "hex_ranthought:gloopimind_download", "input": "", "output": "", "text": "hex_ranthought.page.gloopifact_patterns.download" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:gloopifact_read", "anchor": "hex_ranthought:gloopifact_read", "input": "", "output": "any", "text": "hex_ranthought.page.gloopifact_patterns.read" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:gloopifact_write", "anchor": "hex_ranthought:gloopifact_write", "input": "any", "output": "", "text": "hex_ranthought.page.gloopifact_patterns.write" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:gloopifact_check_read", "anchor": "hex_ranthought:gloopifact_check_read", "input": "", "output": "bool", "text": "hex_ranthought.page.gloopifact_patterns.check_read" },
+    { "type": "hexcasting:pattern", "op_id": "hex_ranthought:gloopifact_check_write", "anchor": "hex_ranthought:gloopifact_check_write", "input": "any", "output": "bool", "text": "hex_ranthought.page.gloopifact_patterns.check_write" }
+  ]
+}

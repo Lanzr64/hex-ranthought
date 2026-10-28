@@ -1,0 +1,13 @@
+{
+  "name": "item.hex_ranthought.gloopifact",
+  "icon": "hex_ranthought:gloopifact",
+  "category": "hexcasting:items",
+  "sortnum": 12,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "hex_ranthought.page.gloopifact.intro" },
+    { "type": "patchouli:crafting", "recipe": "hex_ranthought:gloopifact", "text": "hex_ranthought.page.gloopifact.craft" },
+    { "type": "patchouli:text", "text": "hex_ranthought.page.gloopifact.patterns" }
+  ]
+}

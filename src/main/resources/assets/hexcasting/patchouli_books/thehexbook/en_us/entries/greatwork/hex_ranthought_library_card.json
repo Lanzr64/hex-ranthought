@@ -1,0 +1,12 @@
+{
+  "name": "item.hex_ranthought.library_card",
+  "icon": "hex_ranthought:library_card",
+  "category": "hexcasting:greatwork",
+  "sortnum": 7,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "hex_ranthought.page.library_card.intro" },
+    { "type": "patchouli:crafting", "recipe": "hex_ranthought:library_card" }
+  ]
+}

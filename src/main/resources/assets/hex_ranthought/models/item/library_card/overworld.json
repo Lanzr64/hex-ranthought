@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "hex_ranthought:item/library_card/card",
+      "layer1": "hex_ranthought:item/library_card/overworld_icon"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "hex_ranthought:item/gloopifact/gloopifact_made"
+    }
+}

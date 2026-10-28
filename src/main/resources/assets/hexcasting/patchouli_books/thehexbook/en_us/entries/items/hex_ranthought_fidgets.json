@@ -1,0 +1,14 @@
+{
+  "name": "hex_ranthought.entry.fidgets",
+  "icon": "hex_ranthought:rainbow_amogus_fidget",
+  "category": "hexcasting:items",
+  "sortnum": 13,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "hex_ranthought.page.fidgets.intro" },
+    { "type": "patchouli:crafting", "recipe": "hex_ranthought:pen_fidget", "text": "hex_ranthought.page.fidgets.pen" },
+    { "type": "patchouli:crafting", "recipe": "hex_ranthought:dreidel_fidget", "text": "hex_ranthought.page.fidgets.dreidel" },
+    { "type": "patchouli:crafting", "recipe": "hex_ranthought:amogus_fidget", "text": "hex_ranthought.page.fidgets.amogus" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "block.hex_ranthought.amethyst_generator",
+  "icon": "hex_ranthought:amethyst_generator",
+  "category": "hexcasting:items",
+  "sortnum": 14,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "hex_ranthought.page.amethyst_generator" },
+    {
+      "type": "hexcasting:brainsweep",
+      "recipe": "hex_ranthought:brainsweep/amethyst_generator",
+      "text": "hex_ranthought.page.amethyst_generator.brainsweep"
+    }
+  ]
+}

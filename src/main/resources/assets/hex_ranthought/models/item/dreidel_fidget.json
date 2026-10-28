@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:item/generated",
+    "overrides": [
+      {
+        "model": "hex_ranthought:item/dreidel/nun",
+        "predicate": {
+          "hex_ranthought:fidget_index": 0.0
+        }
+      },
+      {
+        "model": "hex_ranthought:item/dreidel/shin",
+        "predicate": {
+          "hex_ranthought:fidget_index": 0.25
+        }
+      },
+      {
+        "model": "hex_ranthought:item/dreidel/hay",
+        "predicate": {
+          "hex_ranthought:fidget_index": 0.5
+        }
+      },
+      {
+        "model": "hex_ranthought:item/dreidel/gimmel",
+        "predicate": {
+          "hex_ranthought:fidget_index": 0.75
+        }
+      }
+    ],
+    "textures": {
+      "layer0": "hex_ranthought:item/dreidel/dummy"
+    }
+  }

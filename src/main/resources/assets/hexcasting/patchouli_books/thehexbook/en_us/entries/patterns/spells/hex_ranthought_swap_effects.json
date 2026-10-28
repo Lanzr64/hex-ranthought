@@ -1,0 +1,19 @@
+{
+  "name": "hexcasting.spell.hex_ranthought:swap_effects",
+  "icon": "minecraft:potion",
+  "category": "hexcasting:patterns/spells",
+  "sortnum": 15,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "hex_ranthought.page.swap_effects.intro" },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hex_ranthought:swap_effects",
+      "anchor": "hex_ranthought:swap_effects",
+      "input": "entity, entity",
+      "output": "",
+      "text": "hex_ranthought.page.swap_effects.pattern"
+    }
+  ]
+}

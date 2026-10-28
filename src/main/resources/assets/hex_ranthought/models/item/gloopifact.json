@@ -1,0 +1,26 @@
+{
+    "parent": "minecraft:item/generated",
+    "overrides": [
+      {
+        "model": "hex_ranthought:item/gloopifact",
+        "predicate": {
+          "hexcasting:overlay_layer": 0.0
+        }
+      },
+      {
+        "model": "hex_ranthought:item/gloopifact/gloopifact_made",
+        "predicate": {
+          "hexcasting:overlay_layer": 0.5
+        }
+      },
+      {
+        "model": "hex_ranthought:item/gloopifact/gloopifact_iota",
+        "predicate": {
+          "hexcasting:overlay_layer": 1.0
+        }
+      }
+    ],
+    "textures": {
+      "layer0": "hex_ranthought:item/gloopifact/gloopifact_base"
+    }
+  }
